@@ -3,6 +3,14 @@
 
 # The name of the env is INFO_H600_Project, hope it's okay with you guys 
 
+# Windows version:
+
+conda create -n INFO_H600_Project -y -c conda-forge -c defaults ^
+  python=3.11 pip jupyterlab ipykernel numpy pandas pyarrow dask dask-ml pyspark scikit-learn scipy matplotlib seaborn tqdm pyyaml
+
+
+# MacOS version (didn't try but it should work):
+
 conda create -n INFO_H600_Project -y -c conda-forge -c defaults \
   python=3.11 pip \
   jupyterlab ipykernel \
