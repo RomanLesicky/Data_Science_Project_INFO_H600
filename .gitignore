@@ -1,0 +1,13 @@
+# Here we are setting up a .gitingore file for the person who is handling Task 1 so they can put the unedited big data of the playlist 
+# to their local GitHub without actually committing it. 
+
+data/
+
+# Jupyter stuff
+.ipynb_checkpoints/
+
+# Since we are setting up this file we can also ignore other useless stuff 
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
