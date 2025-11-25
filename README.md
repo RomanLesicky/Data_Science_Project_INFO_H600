@@ -2,4 +2,4 @@
 
 This is a test
 
-this is an another test
+this is an other test
