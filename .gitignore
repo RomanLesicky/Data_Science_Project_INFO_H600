@@ -1,7 +1,7 @@
 # Here we are setting up a .gitingore file for the person who is handling Task 1 so they can put the unedited big data of the playlist 
 # to their local GitHub without actually committing it. 
 
-data/
+data_Million_Playlist_Dataset/
 
 # This is the folder where we store our post-Step 1 DataFrames so we do not have to re-run Step 1 each time and can just call them
 
