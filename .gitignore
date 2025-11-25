@@ -3,7 +3,11 @@
 
 data/
 
-# Jupyter stuff
+# This is the folder where we store our post-Step 1 DataFrames so we do not have to re-run Step 1 each time and can just call them
+
+data_post_Task_1/
+
+# This is just as a + to keep all the Jupyter stuff
 .ipynb_checkpoints/
 
 # Since we are setting up this file we can also ignore other useless stuff 
