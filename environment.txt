@@ -1,0 +1,13 @@
+# Very simple txt instead of doing a yml document, this way y'all could just copy paste 
+# Hopefully this will contain all required libraries if not we'll adjust it 
+
+# The name of the env is INFO_H600_Project, hope it's okay with you guys 
+
+conda create -n INFO_H600_Project -y -c conda-forge -c defaults \
+  python=3.11 pip \
+  jupyterlab ipykernel \
+  numpy pandas pyarrow \
+  dask dask-ml pyspark \
+  scikit-learn scipy \
+  matplotlib seaborn \
+  tqdm pyyaml
